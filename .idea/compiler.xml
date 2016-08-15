@@ -24,9 +24,25 @@
         <processorPath useClasspath="true" />
         <module name="SpringMVC" />
       </profile>
+      <profile default="false" name="Annotation profile for ClimateControlSystem" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="ClimateControlSystem" />
+      </profile>
+      <profile default="false" name="Annotation profile for TestProjectTranslation" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="TestProjectTranslation" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="ClimateControlSystem" target="1.8" />
       <module name="SpringMVC" target="1.8" />
+      <module name="TestProjectTranslation" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

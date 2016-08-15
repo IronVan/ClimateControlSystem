@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ClimateControlSystem.iml" filepath="$PROJECT_DIR$/ClimateControlSystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestProjectTranslation.iml" filepath="$PROJECT_DIR$/TestProjectTranslation.iml" />
     </modules>
   </component>
 </project>
